@@ -1,6 +1,6 @@
 # repopractica1
 
-Practicá # 1
+Pràctica # 1
 
 ¿Qué comando utilizaste en el paso 11? ¿Por qué? - 
  Use el comando git reset --hard HEAD ~1, por que el ejercicio pedia modificar el último commit , lo que habia en el working copy, quedando como estaba antes y dejando nuestra staging area vacia y usaba solo git reser -- HEAD, me deshacia el ultimo commit, pero mantenia lo que estaba en el working copy. 
