@@ -10,7 +10,7 @@ Pràctica # 1
 
 
 - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué? 
-Sale en mensaje Already up to date. 
+no, por que arroja el mensaje Already up to date. 
 
 - El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 Si causo conflicto, por que al leer los cambios que realizamos en la rama htmlify, no estan iguales a la del archivo que se habia guardado anteriormente 
@@ -23,13 +23,13 @@ No, causo ningún conflicto
 git log --graph 
 
 - El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
-No, por que va a depender de lo que necesitamos hacer en con el merge
+No podria ser fast forward, por que va a depender de lo que necesitamos hacer en con el merge
 
  - ¿Qué comando o comandos utilizaste en el paso 27? 
  git reset HEAD~1
 
  - ¿Qué comando o comandos utilizaste en el paso 28? 
- git 
+ git reset --hard HEAD~1
 
  ¿Qué comando o comandos utilizaste en el paso 29? 
  git -D title
